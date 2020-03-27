@@ -27,7 +27,7 @@
 3. Add a dependency for group "org.springframework.cloud" and artifact "spring-cloud-starter-netflix-eureka-server".  You do not need to specify a version -- this is already defined in the parent project.  
 
 4. Save an application.yml (or properties) file in the root of your classpath (src/main/resources recommended).  Add the following key / values (use correct YAML formatting):
-  - server.port: 8010
+  - server.port: 8761
 
 5. (optional) Save a bootstrap.yml (or properties) file in the root of your classpath.  Add the following key / values (use correct YAML formatting):
   - spring.application.name=lab-4-eureka-server
